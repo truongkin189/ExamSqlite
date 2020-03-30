@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="Tên"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/tvMasv"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="Mã sinh viên"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/tvDiemTB"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="Điểm trung bình"
+        android:layout_height="wrap_content"></TextView>
+</LinearLayout>
